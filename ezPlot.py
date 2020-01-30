@@ -79,5 +79,5 @@ def ezStreamline(x, y, U, V, x_start, y_start, x_end, y_end):
     pyplot.ylabel('y', fontsize=16)
     pyplot.xlim(x_start, x_end)
     pyplot.ylim(y_start, y_end)
-    pyplot.streamline(x, y, U, V, density=2, linewidth=1, arrowsize=1, arrowstyle='->')
+    pyplot.streamplot(x, y, U, V, density=2, linewidth=1, arrowsize=1, arrowstyle='->')
     return None
